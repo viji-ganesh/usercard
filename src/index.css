@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Archivo", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+#root {
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  width: 350px;
+  text-align: center;
+  background-color: rgba(211, 211, 211, 0.944);
+  border-radius: 1px;
+  box-shadow: 0px 0px 20px -5px;
+  border: 5px solid white;
+  position: relative;
+}
+.container1 {
+  height: 125px;
+  background-image: linear-gradient(#91baff, #205fff);
+  border-radius: 1px 1px 0 0;
+}
+.img {
+  height: 150px;
+  border-radius: 50%;
+  margin-top: -75px;
+  padding: 5px;
+  border: 3px dotted white;
+}
+
+.container2 {
+  height: auto;
+}
+.pro {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  border: 2px solid white;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  
+}
+.offline {
+  background-color: red;
+  border:red;
+
+}
+.online {
+ background-color: green;
+ border: green;
+
+}
+h3,h4 {
+  margin: 3px;
+}
+p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.msg-btn,
+.flw-btn {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  background-color: #205fff;
+  color: white;
+}
+h6 {
+  margin: 15px 0px 0px 0px;
+  font-size: 15px;
+  
+}
+ul li {
+  list-style: none;
+  font-size: 14px;
+}
+.skills h6 {
+  margin-left: 10px;
+}
+.skills ul li {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid;
+  background-color: white;
+  margin: 5px;
+  padding: 4px;
+  border-radius: 4px;
+}
+.skills {
+  text-align: left;
+}
